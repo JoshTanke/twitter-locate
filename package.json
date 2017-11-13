@@ -1,0 +1,17 @@
+{
+  "name": "npm_demo",
+  "version": "1.0.0",
+  "description": "Demo npm",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jdog",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "twitter": "*",
+    "socket.io": "*"
+  }
+}
